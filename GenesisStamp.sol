@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
  
 
-// MailZero x zkSync Genesis Stamp
+// MailZero x BounceBit Genesis Stamp
 contract GenesisStamp is ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
     address public _fundReceiver;
